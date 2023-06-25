@@ -29,7 +29,7 @@ const Book = () => {
                                 <h5 className="card-title">{book?.title}</h5>
                                 <p className="card-text"><b>Author</b>: {book?.author}</p>
                                 <div dangerouslySetInnerHTML={{ __html: book?.metadescription }} />
-                                <Link to="https://amzn.to/3qZPnDy" className="btn btn-primary">Show now</Link>
+                                <Link to="https://amzn.to/3qZPnDy" className="btn btn-primary">Shop now</Link>
                             </div>
                         </div>
                     </div>
